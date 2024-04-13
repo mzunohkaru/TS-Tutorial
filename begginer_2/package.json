@@ -1,0 +1,36 @@
+{
+  "name": "begginer_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "boolean": "ts-node-dev --respawn src/boolean.ts",
+    "array": "ts-node-dev --respawn src/array.ts",
+    "number": "ts-node-dev --respawn src/number.ts",
+    "tuple": "ts-node-dev --respawn src/tuple.ts",
+    "any": "ts-node-dev --respawn src/any.ts",
+    "void": "ts-node-dev --respawn src/void.ts",
+    "null": "ts-node-dev --respawn src/null-and-undefined.ts",
+    "never": "ts-node-dev --respawn src/never.ts",
+    "object": "ts-node-dev --respawn src/object.ts",
+    "aliases": "ts-node-dev --respawn src/type-aliases.ts",
+    "interfaces": "ts-node-dev --respawn src/interfaces.ts",
+    "unknown": "ts-node-dev --respawn src/unknown.ts",
+    "intersection": "ts-node-dev --respawn src/intersection.ts",
+    "union": "ts-node-dev --respawn src/union.ts",
+    "literal": "ts-node-dev --respawn src/literal.ts",
+    "enum": "ts-node-dev --respawn src/enum.ts",
+    "anonymous": "ts-node-dev --respawn src/anonymous-function.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "axios": "^1.6.8"
+  }
+}
