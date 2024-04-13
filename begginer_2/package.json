@@ -27,7 +27,14 @@
     "overloads": "ts-node-dev --respawn src/overloads.ts",
     "first-class": "ts-node-dev --respawn src/first-class.ts",
     "access-modifiers": "ts-node-dev --respawn src/access-modifiers.ts",
-    "more-constructor": "ts-node-dev --respawn src/more-constructor.ts"
+    "more-constructor": "ts-node-dev --respawn src/more-constructor.ts",
+    "g-s": "ts-node-dev --respawn src/getter-setter.ts",
+    "readonly": "ts-node-dev --respawn src/readonly.ts",
+    "static": "ts-node-dev --respawn src/static-members.ts",
+    "namespaces": "ts-node-dev --respawn src/namespaces.ts",
+    "inheritance": "ts-node-dev --respawn src/inheritance.ts",
+    "abstract-class": "ts-node-dev --respawn src/abstract-classes.ts",
+    "re-interfaces": "ts-node-dev --respawn src/return-of-interfaces.ts"
   },
   "keywords": [],
   "author": "",
