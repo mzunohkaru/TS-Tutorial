@@ -20,7 +20,14 @@
     "union": "ts-node-dev --respawn src/union.ts",
     "literal": "ts-node-dev --respawn src/literal.ts",
     "enum": "ts-node-dev --respawn src/enum.ts",
-    "anonymous": "ts-node-dev --respawn src/anonymous-function.ts"
+    "anonymous": "ts-node-dev --respawn src/anonymous-function.ts",
+    "arrow": "ts-node-dev --respawn src/arrow-function.ts",
+    "optional": "ts-node-dev --respawn src/optional-arguments.ts",
+    "rest": "ts-node-dev --respawn src/rest-parameters.ts",
+    "overloads": "ts-node-dev --respawn src/overloads.ts",
+    "first-class": "ts-node-dev --respawn src/first-class.ts",
+    "access-modifiers": "ts-node-dev --respawn src/access-modifiers.ts",
+    "more-constructor": "ts-node-dev --respawn src/more-constructor.ts"
   },
   "keywords": [],
   "author": "",
