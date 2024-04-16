@@ -1,4 +1,7 @@
 import express, { Request, Response, NextFunction } from "express";
+import * as dotenv from 'dotenv'
+
+dotenv.config();
 
 const app = express();
 const PORT = 3000;
@@ -14,6 +17,5 @@ app.use((err: Error, req: Request, res: Response, next: NextFunction) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server is running! http://localhost:${PORT}`);
+  console.log(`Server is running!!! ${process.env.Root}${PORT}`);
 });
-
