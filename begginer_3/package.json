@@ -1,0 +1,19 @@
+{
+  "name": "begginer_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "variables.ts",
+  "scripts": {
+    "interface": "npx ts-node src/interface.ts",
+    "definitions": "npx ts-node src/func-definitions.ts",
+    "callback": "npx ts-node src/callback.ts",
+    "array": "npx ts-node src/array.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
