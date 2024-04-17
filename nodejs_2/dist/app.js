@@ -32,12 +32,28 @@ dotenv.config();
 const app = (0, express_1.default)();
 const PORT = 3000;
 app.use(express_1.default.json());
-app.get("/", (req, res) => {
+app.use((req, res, next) => {
+    console.log("DEBUG: No 1");
+    next();
+});
+app.get("/", (req, res, next) => {
+    console.log("DEBUG: No 2");
     res.send("Hello World!");
 });
+app.post("/", (req, res, next) => {
+    console.log("DEBUG: No 3");
+    if ("message" in req.body && "name" in req.body) {
+        res.send(req.body);
+        return;
+    }
+    else {
+        res.send("Request is not of type Message");
+    }
+});
 app.use((err, req, res, next) => {
+    console.log("DEBUG: Error");
     res.status(500).json({ message: err.message });
 });
 app.listen(PORT, () => {
-    console.log(`Server is running!!! ${process.env.Root}${PORT}`);
+    console.log(`Server is running!🚀 ${process.env.Root}${PORT}`);
 });
