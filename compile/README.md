@@ -1,0 +1,3 @@
+### Watchモード
+$ npx tsc -w
+

@@ -17,3 +17,11 @@ console.log(result_2);
 const add_3 = (a: number, b: number) => a + b;
 
 console.log(add_3);
+
+// 無名関数
+const anotherAdd: (n1: number, n2: number) => number = function (
+  num1,
+  num2
+): number {
+  return num1 + num2;
+};

@@ -10,3 +10,6 @@ console.log(value);
 // ※ エラー
 // value = true;
 
+let unionTypes: (number | string)[] = [1, "foo"];
+console.log(unionTypes);
+

@@ -40,3 +40,20 @@ enum COLORS {
 }
 console.log(COLORS.YELLOW);
 
+enum CoffeeSize {
+    SHORT,
+    TALL = 'TALL',
+    GRANDE = 10,
+    VENTI
+  }
+  
+  const coffee = {
+    hot: true,
+    size: CoffeeSize.SHORT,
+  };
+  
+  console.log(coffee);
+  
+  coffee.size = CoffeeSize.TALL;
+  
+  console.log(coffee);

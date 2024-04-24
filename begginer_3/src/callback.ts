@@ -26,3 +26,13 @@ console.log(multiplyResult);
 setTimeout(() => {
   console.log("DEBUG: setTimeout");
 }, 2000);
+
+/*
+DEBUG: Calculate
+DEBUG: Add
+3
+DEBUG: Calculate
+DEBUG: Multiply
+2
+DEBUG: setTimeout
+*/
