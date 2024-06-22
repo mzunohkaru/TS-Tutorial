@@ -3,6 +3,7 @@ export {};
 type Profile = {
     name: string;
     age: number;
+    gender?: string;
 }
 
 type PartialProfile = Partial<Profile>;
@@ -12,6 +13,7 @@ type PartialProfile = Partial<Profile>;
 type PartialProfile = {
     name?: string | undefined;
     age?: number | undefined;
+    gender?: string | undefined;
 }
 */
 
@@ -21,5 +23,6 @@ type RequiredProfile = Required<Profile>;
 type RequiredProfile = {
     name: string;
     age: number;
+    gender: string;
 }
 */
