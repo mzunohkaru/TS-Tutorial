@@ -7,7 +7,8 @@
     "interface": "ts-node-dev --respawn src/interface.ts",
     "definitions": "ts-node-dev --respawn src/func-definitions.ts",
     "callback": "ts-node-dev --respawn src/callback.ts",
-    "array": "ts-node-dev --respawn src/array.ts"
+    "array": "ts-node-dev --respawn src/array.ts",
+    "types": "ts-node-dev --respawn src/types.ts"
   },
   "keywords": [],
   "author": "",
