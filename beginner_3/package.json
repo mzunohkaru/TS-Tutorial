@@ -8,7 +8,8 @@
     "definitions": "ts-node-dev --respawn src/func-definitions.ts",
     "callback": "ts-node-dev --respawn src/callback.ts",
     "array": "ts-node-dev --respawn src/array.ts",
-    "types": "ts-node-dev --respawn src/types.ts"
+    "types": "ts-node-dev --respawn src/types.ts",
+    "lookup": "ts-node-dev --respawn src/object-lookup.ts"
   },
   "keywords": [],
   "author": "",
