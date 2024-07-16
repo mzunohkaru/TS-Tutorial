@@ -1,1 +1,17 @@
 google_map_app/.env
+
+advanced/node_modules
+beginner/node_modules
+beginner_2/node_modules
+beginner_3/node_modules
+class_interface/node_modules
+decorators/node_modules
+design_pattern/node_modules
+generics/node_modules
+google_map_app/node_modules
+libs/node_modules
+new_gen/node_modules
+nodejs/node_modules
+nodejs_2/node_modules
+project_manager_app/node_modules
+settings/node_modules

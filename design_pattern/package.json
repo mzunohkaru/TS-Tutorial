@@ -1,0 +1,17 @@
+{
+  "name": "design_pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "di": "ts-node src/di/good_di.ts",
+    "factory": "ts-node src/factory/factory.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
